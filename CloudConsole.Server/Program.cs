@@ -32,8 +32,6 @@ Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 //--------------------------------------------------------------------------------
 // Configure builder
 //--------------------------------------------------------------------------------
-Directory.SetCurrentDirectory(AppContext.BaseDirectory);
-
 // Configure builder
 var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 {
